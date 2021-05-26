@@ -1,0 +1,184 @@
+/*
+Template Name: TimeFixr
+Template URI: 
+Description: 
+Version: 1.0.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body, html {margin:0; padding:0; font-family: 'Roboto'}
+
+.main-wrap {width:980px; height:auto; margin:0 auto;}
+  .main-header {width:100%; min-height:100px; padding:15px 0;}
+
+    .nav li {padding-left:25px; }
+    .nav li:first-child a:hover {color:#9F3232;}
+
+      .btn {font-family: Roboto;  font-style: normal;  font-weight: normal;  font-size: 14px;  line-height: 144%; 
+      letter-spacing: 0.01em; color: #000000;
+      }
+      .btn-reg {width: 120px;  height: 35px;  background: #9F3232;   border-radius: 5px; font-family: Roboto; font-style: normal;   font-weight: normal;   font-size: 14px;  letter-spacing: 0.01em; color: #FFFFFF;}
+      .btn-reg:hover {background-color:#9F3232; opacity: .9; color:#FFFFFF;}
+
+    
+  .banner-wrap {width:100%; min-height:100px; margin-top:20px; padding:15px 0;}
+      .banner-wrap .container {margin-bottom:20px;}
+
+    .banner-wrap h1 {font-family: Roboto;  font-style: normal;  font-weight: bold;  font-size: 54px; line-height: 144%;  letter-spacing: 0.01em;   color: #000000;} 
+    .banner-header {font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 144%; letter-spacing: 0.01em; 
+      color: #000000;
+      }
+    .banner-icons {width:100%; height:auto; margin:25px 0;}
+    .banner-icons ul{list-style-type:none; margin:0; padding:0;}
+    .banner-icons ul li{display:inline-block; padding-right:20px;}
+    .banner-icons ul li img {width: 48px;height: 48px;}
+    .btn-free {width: 381px; height: 48px; background: #395696; border-radius: 5px; font-family: Roboto;
+      font-style: normal; font-weight: normal; font-size: 16px; line-height: 144%; letter-spacing: 0.01em; color: #FFFFFF;}
+    .img-shop-wrap {position:relative; width:100%; height:auto;}
+      .img-shop {position:absolute; top:25px; top: -80px; z-index: -1;}
+
+  h2 {font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 144%;  
+    text-align: center;
+    letter-spacing: 0.01em;    
+    color: #000000;
+    margin-top:50px;
+    margin-bottom:50px;
+    }    
+
+  h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 144%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.81);
+  }  
+
+.everything-img {text-align:center; margin:5px 0;}
+.banner-wrap .col-md-4 {margin:35px 0;}
+
+
+.two-col-wrap {width:100%; min-height:100px; padding:15px 0;}
+     
+    .two-col-wrap h1 {font-family: Roboto;  font-style: normal;  font-weight: bold;  font-size: 32px; line-height: 144%;  letter-spacing: 0.01em;  margin-top:70px;  color: #000000; } 
+    
+    .two-col-header {font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 144%; 
+      letter-spacing: 0.01em; 
+      color: #000000;
+      margin:25px 0;
+      }
+   
+    .btn-started {width: 381px; height: 48px; background: #395696; border-radius: 5px; font-family: Roboto;
+      font-style: normal; font-weight: normal; font-size: 16px; line-height: 144%; letter-spacing: 0.01em; color: #FFFFFF; margin-top:25px;}
+      
+    .two-col-img-wrap {position:relative; width:100%; height:auto;}
+    .two-col-img {}
+
+  footer {width:100%; height:auto; font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 144%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.81);
+    }  
+
+   .copyright {margin-top:50px; margin-bottom:25px;} 
+
+   .img-shop-wrap-mobile, .two-col-img-wrap-mobile {display:none;}
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-wrap {width:100%;}
+  .main-header {text-align:center;}
+
+  .nav {float:none !important; margin-top:25px;}
+  .nav li {margin-left:30px;}
+
+  .banner-wrap h1 {
+      font-size: 40px;
+      line-height: 100%;
+      text-align: center;
+      margin-bottom: 25px;
+  }
+
+  .banner-header {
+      text-align: center;
+  }
+
+  .banner-icons ul li {
+      padding-left: 10px;
+  }
+
+  .btn-free {
+      width: 100%;
+  }
+
+  .img-shop-wrap {display:none;}
+
+  h2 {
+      font-size: 30px;
+      line-height: 120%;
+      margin-bottom: 20px;
+  }
+
+  .two-col-wrap h1 {
+      text-align: center;
+  }
+
+  .two-col-header {
+      text-align: center;
+  }
+
+  .btn-started {
+      width: 100%;
+  }
+
+  .two-col-img-wrap {display:none;}
+
+  .two-col-wrap h1 {
+      font-size: 26px;
+      line-height: 144%;
+  }
+
+  footer {margin: 50px 0 25px 0;}
+  .copyright  {margin:25px 0;}
+
+  .img-shop-wrap-mobile {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .img-shop-wrap-mobile img {max-width:100%;}
+
+  .two-col-img-wrap-mobile {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .two-col-img-wrap-mobile img {max-width:100%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
